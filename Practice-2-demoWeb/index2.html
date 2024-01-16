@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="tr">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <title>Ana Sayfa</title>
+  </head>
+  <body>
+    <h1 class="d-block d-sm-none bg-warning">xs-Mobil Görünümlü Sitemize Hoşgeldiniz</h1>
+    <h1 class="d-none d-sm-block d-md-none bg-primary">s-Tablet Görünümlü Sitemize Hoşgeldiniz</h1>
+    <h1 class="d-none d-md-block d-lg-none bg-danger" >m-Laptop Görünümlü Sitemize Hoşgeldiniz</h1>
+    <h1 class="d-none d-lg-block d-xl-none bg-success">L-Normal Görünümlü Sitemize Hoşgeldiniz</h1>
+    <h1 class="d-none d-xl-block d-xxl-none bg-info">xl-Büyük Ekran Görünümlü Sitemize Hoşgeldiniz</h1>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-6 col-md-4 col-lg-3 col-xl-2 bg-info">Lorem.</div>
+            <div class="col-sm-6 col-md-4 col-lg-3 col-xl-2 bg-warning">Vitae!</div>
+            <div class="col-sm-6 col-md-4 col-lg-3 col-xl-2 bg-danger">Nobis!</div>
+            <div class="col-sm-6 col-md-4 col-lg-3 col-xl-2 bg-primary">Ut.</div>
+            <div class="col-sm-6 col-md-4 col-lg-3 col-xl-2 bg-success d-lg-none d-xl-block">Obcaecati.</div> <!-- lg none xl block ekleyerek large ekranda bu iki kutunun çıkmamasını sağladık -->
+            <div class="col-sm-6 col-md-4 col-lg-3 col-xl-2 bg-secondary d-lg-none d-xl-block">Quia.</div> <!-- lg none xl block ekleyerek large ekranda bu iki kutunun çıkmamasını xl de ise tekrar çıkmasını sağladık -->
+            
+        </div>
+    </div>
+    
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    
+  </body>
+</html>
